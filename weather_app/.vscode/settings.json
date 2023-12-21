@@ -1,0 +1,13 @@
+{
+    "cmake.sourceDirectory": "E:/Flutter/Flutter (Tharwat Samy)/Flutter Projects/weather_app/windows/flutter",
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "cSpell.words": [
+        "avgtemp",
+        "forecastday",
+        "fromjson",
+        "localtime",
+        "maxtemp",
+        "mintemp"
+    ],
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable"
+}

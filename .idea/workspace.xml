@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4436a340-244a-45b4-8272-a5f9842fdbd7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/main_dart.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/assets/images/arrow_back.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/assets/images/card.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/assets/images/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/assets/images/my_cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/assets/images/pay.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/assets/images/paypal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/lib/Features/checkout/presentation/views/check_out_view.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/lib/Features/checkout/presentation/views/payment_details.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/lib/Features/checkout/presentation/views/success_view.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/lib/Features/checkout/presentation/views/widgets/card_info_widget.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/lib/Features/checkout/presentation/views/widgets/custom_check_icon.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/lib/Features/checkout/presentation/views/widgets/custom_credit_card.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/lib/Features/checkout/presentation/views/widgets/custom_dashed_line.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/lib/Features/checkout/presentation/views/widgets/my_cart_view_body.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/lib/Features/checkout/presentation/views/widgets/order_info_item.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/lib/Features/checkout/presentation/views/widgets/payment_details_view_body.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/lib/Features/checkout/presentation/views/widgets/payment_item_info.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/lib/Features/checkout/presentation/views/widgets/payment_method_item.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/lib/Features/checkout/presentation/views/widgets/payment_method_list_view.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/lib/Features/checkout/presentation/views/widgets/success_card.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/lib/Features/checkout/presentation/views/widgets/success_view_body.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/lib/Features/checkout/presentation/views/widgets/total_price.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/lib/core/utils/assets.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/lib/core/utils/style.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/lib/core/widgets/custom_app_bar.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/lib/core/widgets/custom_button.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/payment/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/payment/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/payment/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/payment/test/widget_test.dart" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2Z6TC969dFEv0nNyBmn2yCrsfjv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "E:/Flutter/Flutter (Tharwat Samy)/Flutter-Projects/payment"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4436a340-244a-45b4-8272-a5f9842fdbd7" name="Changes" comment="" />
+      <created>1701741400203</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701741400203</updated>
+    </task>
+    <servers />
+  </component>
+</project>
