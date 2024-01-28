@@ -1,4 +1,3 @@
-import 'package:bookly_app/core/utils/functions/custom_snac_bar.dart';
 import 'package:bookly_app/features/search/presentation/manager/cubit/search_cubit.dart';
 import 'package:bookly_app/features/search/presentation/views/widgets/search_text_field.dart';
 import 'package:flutter/material.dart';
@@ -11,7 +10,7 @@ class SearchViewBody extends StatelessWidget {
   SearchViewBody({
     super.key,
   });
-  String? subName;
+  final myController = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return CustomScrollView(
@@ -24,22 +23,9 @@ class SearchViewBody extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 SearchTextField(
-                  onChanged: (value) {
-                    subName = value;
-                  },
-                  onSubmitted: (value) {
-                    subName = value;
-                    BlocProvider.of<SearchCubit>(context)
-                        .fetchSearchBooks(subName: subName!);
-                  },
                   onPressed: () {
-                    if (subName != null) {
-                      BlocProvider.of<SearchCubit>(context)
-                          .fetchSearchBooks(subName: subName!);
-                    } else {
-                      return customSnacBar(
-                          context, 'Please Enter Search Book Name');
-                    }
+                    BlocProvider.of<SearchCubit>(context)
+                        .fetchSearchBooks(subName: myController.text);
                   },
                 ),
                 const SizedBox(
@@ -52,7 +38,7 @@ class SearchViewBody extends StatelessWidget {
                 const SizedBox(
                   height: 16,
                 ),
-              const Expanded(child: SearchResultListViewItem()),
+                const Expanded(child: SearchResultListViewItem()),
               ],
             ),
           ),

@@ -4,22 +4,13 @@ import 'package:bookly_app/features/search/presentation/manager/cubit/search_cub
 import 'package:bookly_app/features/search/presentation/views/widgets/search_list_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:go_router/go_router.dart';
 
-class SearchResultListViewItem extends StatefulWidget {
+import '../../../../../core/utils/app_router.dart';
+import '../../../../../core/utils/assets_data.dart';
+
+class SearchResultListViewItem extends StatelessWidget {
   const SearchResultListViewItem({super.key});
-
-  @override
-  State<SearchResultListViewItem> createState() =>
-      _SearchResultListViewItemState();
-}
-
-class _SearchResultListViewItemState extends State<SearchResultListViewItem> {
-  @override
-  void initState() {
-    BlocProvider.of<SearchCubit>(context)
-        .fetchSearchBooks(subName: 'programming');
-    super.initState();
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -35,16 +26,32 @@ class _SearchResultListViewItemState extends State<SearchResultListViewItem> {
                 itemBuilder: (context, index) {
                   return Padding(
                     padding: const EdgeInsets.symmetric(vertical: 10),
-                    child: SearchListView(
-                      bookModel: state.books[index],
+                    child: GestureDetector(
+                      onTap: () {
+                          GoRouter.of(context).push(AppRouter.kBookDetailsView,
+                              extra: state.books[index]);
+                      },
+                      child: SearchListView(
+                        bookModel: state.books[index],
+                      ),
                     ),
                   );
                 }),
           );
         } else if (state is SearchFailure) {
           return CustomErrorWidget(errorMessage: state.errorMessage);
-        } else {
+        } else if(state is SearchLoading) {
           return const CustomLoadingIndicator();
+        }else{
+          return Center(
+            child: Image.asset(
+              AssetsData.logo,
+              width: MediaQuery.of(context).size.width * .6,
+              height: MediaQuery.of(context).size.height * .6,
+              fit: BoxFit.contain,
+            ),
+          );
+
         }
       },
     );

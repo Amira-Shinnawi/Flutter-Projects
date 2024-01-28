@@ -16,7 +16,7 @@ class SearchRepoImple implements SearchRepo {
       {required String subName}) async {
     try {
       var data = await apiService.get(
-          endPoint: 'volumes?Filtering=free-ebooks&q=$subName');
+          endPoint: 'volumes?Filtering=free-ebooks&q=subject:$subName');
       List<BookModel> books = [];
       for (var item in data['items']) {
         try {
